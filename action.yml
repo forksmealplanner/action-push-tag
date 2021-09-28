@@ -8,6 +8,9 @@ inputs:
   message:
     description: A message for the Git tag.
     required: false
+  force:
+    description: Force creating and pushing.
+    required: false
 runs:
   using: docker
   image: Dockerfile
